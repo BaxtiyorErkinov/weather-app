@@ -8,8 +8,14 @@ module.exports = {
     extend: {
       colors: {
         'main-dark': "#242424"
+      },
+      fontFamily: {
+        'sans': ['Raleway']
       }
     },
+    fontFamily: {
+      'sans': ['Raleway']
+    }
   },
   plugins: [],
 }

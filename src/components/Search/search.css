@@ -1,0 +1,42 @@
+.searchbar {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar__container {
+  position: relative;
+  min-width: 800px;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 0;
+}
+
+.searchbar__container .search__icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  @apply fill-slate-400;
+}
+
+.searchbar__input {
+  background: transparent;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  outline: none;
+  padding: 0 70px;
+  @apply placeholder:text-slate-400 text-slate-400;
+}
+
+.delete__icon {
+  @apply absolute top-[50%] right-3 -translate-y-[50%] w-[20px] h-[20px] fill-slate-400 cursor-pointer;
+}
