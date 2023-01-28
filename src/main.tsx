@@ -6,8 +6,6 @@ import './index.css';
 
 const clientQuery = new QueryClient();
 
-console.log('setup', clientQuery);
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <QueryClientProvider client={clientQuery}>
     <App />
