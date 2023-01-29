@@ -17,5 +17,5 @@
 
 .suggestion__list-item {
   width: 100%;
-  @apply w-full px-2 py-4 cursor-pointer hover:bg-black/[.1] flex gap-x-2 items-center font-semibold font-sans;
+  @apply w-full px-2 py-4 cursor-pointer hover:bg-purple-800 flex gap-x-2 items-center font-semibold font-sans;
 }
