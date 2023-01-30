@@ -13,6 +13,7 @@
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   margin: 0;
+  border: none;
 }
 
 .searchbar__container .search__icon {
@@ -22,7 +23,7 @@
   width: 30px;
   height: 30px;
   transform: translateY(-50%);
-  @apply fill-slate-400;
+  @apply fill-slate-400 group-active:fill-purple-600;
 }
 
 .searchbar__input {

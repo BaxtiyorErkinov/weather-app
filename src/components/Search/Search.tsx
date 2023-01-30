@@ -72,7 +72,7 @@ const Search = (props: Props) => {
 
   return (
     <div className="searchbar">
-      <div className="searchbar__container">
+      <div className="searchbar__container group">
         <AiOutlineSearch className="search__icon" />
         <input
           type="text"
